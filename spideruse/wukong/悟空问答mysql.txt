@@ -1,0 +1,54 @@
+﻿#根据keyword分组，查询每个分组的最大值
+SELECT
+	wk.title,
+	wk.keyword,
+	wk.url,
+	MAX( wk.replyNum ),
+	collectNum,
+	likeNum,
+	commentNum 
+FROM
+	tb_wukong wk 
+GROUP BY
+	wk.keyword;
+
+#查询每个keyword分组中的记录个数
+SELECT
+	wk.keyword,
+	COUNT(*) AS records
+FROM
+	tb_wukong wk 
+GROUP BY
+	wk.keyword;
+
+#cnt就是得到某个记录在它所属的keyword中，所有大于该记录的replyNum的记录个数。
+#比如keyword='财经'的记录中，replyNum最大的记录的cnt为0，replyNum次最大的记录的cnt为1。
+SELECT
+		a.keyword,
+		a.replyNum,
+		a.title,
+		( SELECT COUNT( * ) FROM tb_wukong b WHERE b.replyNum > a.replyNum AND b.keyword = a.keyword ) AS cnt 
+FROM
+		tb_wukong a;
+
+#查询每个keyword分组中，replyNum最大的前N个记录
+SET @n = 20;
+SELECT
+	c.keyword,
+	c.replyNum,
+	c.title
+FROM
+	(
+	SELECT
+		a.keyword,
+		a.replyNum,
+		a.title,
+		( SELECT COUNT( * ) FROM tb_wukong b WHERE b.replyNum > a.replyNum AND b.keyword = a.keyword ) AS cnt 
+	FROM
+		tb_wukong a
+	) c 
+WHERE
+	c.cnt <= @n
+GROUP BY
+	c.keyword,
+	c.replyNum;
