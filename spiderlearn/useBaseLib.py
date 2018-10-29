@@ -7,7 +7,7 @@ import urllib.error
 import socket
 # x1 = 'http://www.python.org'
 # x2 = 'https://www.9366df.com/move/3/index.html'
-response = urllib.request.urlopen(x1)
+# response = urllib.request.urlopen(x1)
 # 输出源代码
 # print(response.read().decode('utf-8'))
 # 输出响应类型
