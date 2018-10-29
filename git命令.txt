@@ -1,0 +1,50 @@
+获取秘钥
+ssh-keygen -t rsa -C "your_email@youremail.com"
+
+检查是否成功绑定github
+ssh -T git@github.com
+
+设置git的用户名和邮箱
+git config --global user.name "your name"
+git config --global user.email "yourEmail@yourEmail.com"
+
+打开文件
+cd
+cd /e
+
+dir
+
+创建新目录
+mkdir
+mkdir code
+
+进入新目录
+cd code
+cd /e/code
+
+从远程库克隆至本地
+clone
+git clone https://github.com/YourFigo/FigoCode.git
+
+ls
+
+增加、修改、删除文件
+add
+增加文件
+git add test.txt
+提交被修改的和新建的文件，但不包括被删除的文件
+git add .
+更新所有改变的文件，即提交所有变化的文件，包括删除的文件
+git add -u --update
+提交已被修改和已被删除文件，但是不包括新的文件
+git add -A    --all
+
+提交
+commit
+最后面引号中为提交备注
+git commit -m "test"
+
+推到远端库
+push
+推到主分支
+git push origin master
