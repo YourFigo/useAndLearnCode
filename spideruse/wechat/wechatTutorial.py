@@ -70,8 +70,8 @@ def plot_bar_sex(x,y):
     plt.figure()
     # plt.bar(sex_count1.keys(),sex_count1.values())
     plt.bar(x,y)
-    plt.show()
     plt.savefig(path + '\\sexFigure.jpg')
+    plt.show()
 
 # 将朋友地理信息写入txt
 def write_name_all(myNickName, Sex_count2, Provinde_count, City_count):
@@ -90,7 +90,7 @@ def write_name_all(myNickName, Sex_count2, Provinde_count, City_count):
     write_file.close()
 
 plot_bar_sex(['男','女','不详'], Sex_count2)
-write_name_all(myNickName, City_count, Provinde_count, City_count)
+write_name_all(myNickName, Sex_count2, Provinde_count, City_count)
 
 # 获得并处理 微信签名
 Signatures = df_friends.Signature
@@ -119,8 +119,8 @@ word_space_split = '/'.join(sigt_word_list)
 print(' ------  ')
 print(word_space_split)
 
-coloring = np.array(Image.open(path + '\\' + 'background.jpg'))
-#生成词云。font_path="C:\Windows\Fonts\msyhl.ttc"指定字体，有些字不能解析中文，这种情况下会出现乱码。
+# coloring = np.array(Image.open(path + '\\' + 'background.jpg'))
+#生成词云。font_path="C:\Windows\Fonts\msyhl.ttc"指定字体，有些字e不能解析中文，这种情况下会出现乱码。
 my_wordcloud = WordCloud(background_color="white", max_words=2000, max_font_size=60, random_state=42, scale=2,
                          font_path="E:/GitCode/useAndLearnCode/spideruse/wechat/Figo/HYZhengYuan-75W-2.otf").generate(word_space_split)
 

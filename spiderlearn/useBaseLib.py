@@ -245,6 +245,7 @@ Disallow: /
 # print(rp.can_fetch('*','http://www.jianshu.com/p/0826cf46928'))
 # print(rp.can_fetch('*','http://www.jianshu.com/search?q=python&page=l&type=collections'))
 
+
 # requests库 Cookies、登录验证、代理设置
 # 调用get()方法 与 urllib.request.urlopen()实现相同的操作，得到一个Response对象。
 # import requests
@@ -498,3 +499,57 @@ import requests
 #  '''
 # result = re.match('^He.*?(\d+).*Demo$',content,re.S)
 # print(result.group(1))
+
+
+# search() 它在匹配时会扫描整个字符串，然后返回第一个成功匹配的结果。
+# 前面提到过 match() 方法是从字符串的开头开始匹配的，一旦开头不匹配，那么整个匹配就失败了。
+# 比如下面这个例子，这里的字符串以 Extra 开头，但是正则表达式以 Hello 开头，
+# 整个正则表达式是字符串的一部分，但匹配结果时None，匹配失败了，这样很不方便。
+# import  re
+# content = 'Extra stings Hello 1234567 World This is a Regex Demo Extra stings'
+# result = re.match('Hello.*?(\d+).*?Demo',content)
+# print(result)
+# # 下面用 search() 就可以正确返回我们想要的结果了。
+# result = re.search('Hello.*?(\d+).*?Demo',content)
+# print(result.group())
+
+# findall() 搜索整个字符串，获取匹配正则表达式的所有内容。
+# import re
+# str = '<a>我是小赵</a>' \
+#       '<p>我是小钱</p>' \
+#       '<a>我是小孙</a>' \
+#       '<a>我是小李</a>' \
+#       '<h1>我是小周</h1>' \
+#       '<a>我是小吴</a>'
+# print(str)
+# result = re.findall('<a>(.*?)</a>',str,re.S)
+# print(type(result))
+# for x in result:
+#     print(x)
+
+# sub() 除了使用正则表达式提取信息外，有时候还需要借助它来修改文本。
+# 比如，想要把一串文本中的所有数字都去掉，如果只用字符串的 replace()方法，那就太烦琐了，这时可以借助 sub()方法。
+# import re
+# content = 'ab2cd3Ef8RG85yujh798'
+# content = re.sub('\d+','',content)
+# print(content)
+# content = 'ab2cd3Ef8RG85yujh798'
+# content = re.sub('[a-zA-Z]','',content)
+# print(content)
+
+# compile() 将正则字符串编译成正则表达式对象，以便在后面的匹配中复用
+import  re
+contentl = '2016 12 15 12:00'
+content2 = '2016-12-17 12:55'
+content3 = '2016-12-22 13:21'
+pattern = re.compile('\d{2}:\d{2}')
+result1 = re.sub(pattern,'',contentl)
+result2 = re.sub(pattern,'',content2)
+result3 = re.sub(pattern,'',content3)
+print(result1,result2,result3)
+
+pattern = re.compile('\d{2}:\d{2}')
+result1 = re.search(pattern,contentl).group()
+result2 = re.search(pattern,content2).group()
+result3 = re.search(pattern,content3).group()
+print(result1,result2,result3)
