@@ -12,7 +12,7 @@ class LNode:
     def __init__(self,x):
         self.data = x
         self.next = None
-
+# 就地逆序
 def Reverse(head):
     # 判空,我这里多加了一个判断，考虑了只有一个元素节点的情况
     # if head == None or head.next == None:
