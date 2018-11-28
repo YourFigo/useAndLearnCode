@@ -8,6 +8,7 @@ class LNode:
         self.next = None
 
 # 递归逆向输出链表
+# 思路是：先输出当前节点的所有后继节点，然后再输出当前节点
 def ReversePrint(first):
     if first is None:
         return
@@ -21,9 +22,11 @@ if __name__ == '__main__':
     tmp = None
     cur = head
     while i < 11:
+        # 创建节点
         tmp = LNode(i)
         # 修改上一次循环的cur.next
         cur.next = tmp
+        # 节点后移
         cur = tmp
         i = i + 1
 

@@ -27,6 +27,7 @@ def Reverse(head):
     # 逆序后的新的第一个节点
     newFirst = RecursiveReverse(first)
     head.next = newFirst
+    # 原书这个地方返回的不太对，他返回的是newFirst
     return head
 
 if __name__ == '__main__':

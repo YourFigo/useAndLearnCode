@@ -46,6 +46,7 @@ def Reverse(head):
 if __name__ == '__main__':
     i = 1
     head = LNode(None)
+    # head = LNode 这样初始化后，实例没有data和next属性
     # print(head)
     # print(type(head))
     # print(head.data)
@@ -57,7 +58,7 @@ if __name__ == '__main__':
         tmp = LNode(i)
         # 修改上一次循环的cur.next
         cur.next = tmp
-        cur = tmp
+        cur = cur.next
         i = i + 1
     print('01_reverseList_1.py')
     print('逆序前：')
