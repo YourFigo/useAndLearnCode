@@ -1,0 +1,148 @@
+win10系统anaconda搭建tensorflow环境（踩坑24小时完整解决攻略）
+0、相关说明及anaconda下载安装
+0.1：
+
+anaconda版本3-4.3.0
+
+
+0.2：
+
+遇到的问题：
+
+PermissionError: [Errno 13] Permission denied: 'C:\\ProgramData\\Anaconda3\\
+                            
+
+tensorflow安装时显示：多个安装失败
+
+
+0.3：
+
+anaconda下载地址：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+0.4：效果截图
+1、win10获取管理员权限：
+将用户的账户类型设置为管理员：打开控制面板-用户账号-更改账户类型-选择管理员
+进入anaconda的安装文件夹：C:\ProgramData\Anaconda3，右键点击授予访问权限。然后打开Anaconda Prompt即可。
+或者直接cmd切换到anaconda的安装路径：C:\ProgramData\Anaconda3
+不这样操作会产生错误：PermissionError: [Errno 13] Permission denied: 'C:\\ProgramData\\Anaconda3\\
+2、
+查看conda包信息
+conda list
+查看conda版本
+conda -V
+查看源：
+conda config --show-sources
+3、为了防止Anaconda Navigator第一次无法打开，先设置国内的清华大学镜像
+由于国内访问国外网站速度相当慢，很有可能安装一些库安装不成功，因此需要置国内镜像源地址
+增加清华大学镜像源：
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+删除默认镜像源：
+conda config --remove channels defaults
+查看配置信息：
+conda config --show
+验证源：
+conda search tensorflow
+4、
+安装tensorflow
+安装的anaconda版本为：4.3.8  Anaconda3-4.3.0-Windows-x86_64
+在anaconda Navigator 中，搜索安装tensorflow，tensorflow版本为 1.12.0
+不到一分钟安装完成。
+5、
+下面测试tensorflow环境
+(C:\ProgramData\Anaconda3) C:\Users\Figo>python.exe
+Python 3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello,Tensorflow!')
+>>> sess = tf.Session()
+2018-12-01 16:35:46.385921: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.392792: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.397187: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.401043: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.406450: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.410500: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.414409: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-01 16:35:46.420305: W c:\l\tensorflow_1501918863922\work\tensorflow-1.2.1\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+>>> sess.run(hello)
+b'Hello,Tensorflow!'
+
+至此 环境搭建完成
+
+6、
+清华镜像装tensorflow（win10的权限真的太磨人了）
+pip install tensorflow==1.8 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+安装指定版本的TensorFlow
+首先在Anaconda的库中查找所有的相关的repository
+anaconda search -t conda tensorflow
+根据自己的环境选择安装对应的版本，查看repository中的信息，anaconda会返回供安装的版本号以及安装方法
+anaconda show anaconda/tensorflow
+根据返回的内容进行安装
+conda install --channel https://conda.anaconda.org/anaconda tensorflow=1.6.0
+
+7、
+后面为了运行代码，还是出现了一些问题，现在想着应该是一些版本适配问题。
+7.1
+使用代理装新版的anaconda然后装自己想装的库后，开始运行代码
+7.2
+首先需要根据教程安装pycocotools
+Windows:?https://github.com/philferriere/cocoapi. You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
+将运行成功之后的 cocoapi-master\PythonAPI\build\lib.win-amd64-3.6 目录下的 pycocotools 文件夹 copy到项目的 Mask_RCNN-master\samples\coco 中
+7.3
+然后再
+pip3 install -r requirements.txt
+7.4
+接着
+python3 setup.py install
+7.5
+然后把训练好的mask_rcnn_coco.h5放在项目最外层文件夹中（项目根目录）
+7.6
+接着再jupyter运行Mask_RCNN-master\samples\demo.ipynb报错
+AttributeError: module 'h5py' has no attribute '_hl'
+7.7
+尝试降低h5py版本
+pip install h5py==2.7.0
+7.8
+最后点击jupyter中的 Cell--Run Cells 大功告成，祭奠我逝去的三个日出
+Processing 1 images
+image                    shape: (626, 640, 3)         min:    0.00000  max:  255.00000  uint8
+molded_images            shape: (1, 1024, 1024, 3)    min: -123.70000  max:  151.10000  float64
+image_metas              shape: (1, 93)               min:    0.00000  max: 1024.00000  float64
+anchors                  shape: (1, 261888, 4)        min:   -0.35390  max:    1.29134  float32
+下面是一张公交车的数据集
+
+ubuntu遇到的最大的问题是：在加载预训练权重出错，还以为是h5py库的原因，搞了好久，原来是权重文件的问题，删除了重新cope了一份轻松解决。
+OSError: Unable to open file (truncated file: eof = 655360, sblock->base_addr = 0, stored_eof = 257557808)
+
+ububtu下conda环境的管理：
+查看conda版本：
+conda --v
+查看conda环境：
+conda info -e
+指定环境名查看conda的package列表：
+conda list -n envname
+创建环境：
+conda create --name envname python=3.6
+激活环境：
+source activate envname
+退出激活环境：
+source deactivate
+复制一个环境：
+conda create -n envname2 --clone envname1
+移除一个环境：
+conda remove --name envname1 --all
+指定环境安装package：
+conda install -n envname1 numpy=1.0.0
+指定环境删除package：
+conda remove -n envname1 numpy=1.0.0
+
+
+以上，被anaconda折磨了24+小时，48小时内安装卸载超过20次，踩过的坑贡献给无私的互联网参考。
+安装日期2018.12.02，windows10家庭版，亲测有效。
+参考文献：
+
+
+http://www.cnblogs.com/xiaojianliu/p/9490661.html
+
+
+http://blog.51cto.com/m51cto/2161697?source=dra
