@@ -1,0 +1,248 @@
+# ls 列出当前目录下的文件信息
+ls -i 查看文件的详细信息
+ls -a 查看所有文件(包括隐藏)
+ls -t 按时间倒序查看文件
+
+# 切换目录 cd
+cd ./ 子目录
+cd ../ 父目录
+cd / 根目录
+cd ~ 进入家目录
+cd .. 进入上一层目录
+cd - 进入上一次所在目录
+
+# mkdir 新建
+创建一个目录：mkdir dir1
+创建的目录名以-开头：mkdir -- -dir1
+创建多个目录：mkdir dir1 dir2
+或者用{dir1,dir2,dir3}（,前后不能有空白）：mkdir {dir1,dir2,dir3}
+创建级联目录：mkdir -p file1/{file1,file2,file3/{file1,file2}}
+批量创建：mkdir {1..100}
+
+# cat 查看文档内容
+cat id_rsa.pub
+
+# touch 创建文档
+touch a.txt
+touch a.log
+touch c.sh
+touch b.txt b.log
+批量创建：touch {a..z}.log
+
+# rename 重命名
+1、批量将所有.nc文件中的下x1换成x2：
+rename -v 's/x1/x2/' *.nc
+	//两个斜杠之间代表匹配、替换的内容
+2、批量将所有.txt文件重命名为.log：
+rename 's/\.txt/\.log/' *.txt
+	s 替换
+	\ 反斜杠是转义字符
+rename -v 's/\.txt/\.log/' *.txt
+rename -n 's/\.txt/\.log/' *.txt
+	-v 命名并打印被成功重命名的文件
+	-n 只显示将被命名的文件，并不执行
+
+# 复制、覆盖 cp
+sudo cp source.txt target.txt
+sudo cp -f /code/a.txt /program/a.txt
+
+# 删除 rm
+-r 递归
+-f 强制
+-i 提示
+- 短参数
+-- 长参数
+# 非常危险的强制删除命令，慎用
+sudo rm -rf *
+sudo rm -rf ./filename
+# 如果某个文件名以 - 开头，如下操作
+sudo rm -rf -- -filemane-
+# 指定目录下以 - 开头
+sudo rm -rf ./-filename-
+
+# mv 移动文件或目录
+mv source target
+mv dir1/a.txt dir2
+mv dir1 dir2
+# mv 同目录下更名
+mv name1 name2
+
+# find
+找当前目录下，所有以数字开头的文件和文件夹：
+find -regex ".*[0-9]*";
+查找当前目录下所有的.log文件
+find -name "*.log"
+find -regex ".*.log"
+查找并删除当前目录下所有以数字开头的文件和文件夹
+find -regex ".*[0-9]*" -exec rm -rf {} \;
+查找并删除目录下的.log文件
+find /home/figo/code/log -name "*.log" -exec rm -rf {} \;
+
+
+# vi最常用几个
+命令模式：esc
+输入模式：i
+保存并退出：命令模式下，按shift+":"后出现一个命令行，输入 wq 回车
+复制整行：命令模式下，按 yy
+粘贴整行：命令模式下，按 p
+删除整行：命令模式下，按 dd
+
+# 给apt换源
+cd /etc/apt
+sudo cp sources_init.list sources_init.list.bak
+sudo gedit sources.list
+# 配置好了更新，读取源软件列表
+sudo apt-get update
+# 升级软件，将本地安装的软件与源软件列表对比并提示升级
+sudo apt-get upgrade
+
+# 安装以及卸载
+sudo apt-get install git
+卸载并清除配置：
+sudo apt-get --purge remove git
+慎用autoremove(删除git并且删除git安装时自动下载的其他依赖包)：
+sudo apt-get autoremove git
+
+# dpkg安装、卸载.deb包
+安装：dpkg -i filename.deb
+卸载（保留配置信息）：dpkg -r filename.deb
+删除（包括配置信息）：dpkg -P filename.deb
+
+# 下载并开启ssh服务
+sudo apt-get install openssh-server
+sudo service ssh start
+sudo service ssh status
+sudo gedit /etc/ssh/sshd_config
+sudo service ssh restart
+netstat -an | grep "LISTEN"
+
+# anaconda相关操作
+# 安装、删除anaconda
+安装：bash Anaconda3-5.2.0-Linux-x86_64.sh
+删除：rm -rf anaconda文件夹名字
+清理PATH：
+	打开.bashrc：sudo gedit ~/.bashrc
+	删掉关于anaconda的PATH
+	立即生效：source ~/.bashrc
+	关闭终端
+# ububtu下conda环境的管理：
+查看conda版本：conda --v
+查看conda环境：conda info -e
+增加清华大学镜像源：
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --set show_channel_urls yes
+查看源：conda config --show-sources
+查看配置信息：conda config --show
+搜索某个包的源：conda search tensorflow
+指定环境名查看conda的package列表：conda list -n envname
+创建环境：conda create --name envname python=3.6
+激活环境：source activate envname
+退出激活环境：source deactivate
+复制一个环境：conda create -n envname2 --clone envname1
+移除一个环境：conda remove --name envname1 --all
+指定环境安装package：conda install -n envname1 numpy=1.0.0
+指定环境删除package：conda remove -n envname1 numpy=1.0.0
+
+# 定时任务shell脚本
+1、新建一个.sh文档：
+touch auto-del-per-minutes-log.sh
+2、分配可运行权限：
+chmod +x auto-del-per-minutes-log.sh
+3、用vi打开上面的.sh文档
+vi auto-del-per-minutes-log.sh
+4、在文档中输入：
+# delete logs before 1 day ...
+echo "Delete all logs @ /home/figo/code/log"
+find /home/figo/code/log -name "*.log" -exec rm -rf {} \;
+5、保存退出
+6、计划任务：
+	6.1 终端输入：crontab -e
+	6.2 终端有以下输出：
+	no crontab for figo - using an empty one
+
+	Select an editor.  To change later, run 'select-editor'.
+  	  1. /bin/ed
+  	  2. /bin/nano        <---- easiest
+  	  3. /usr/bin/vim.basic
+  	  4. /usr/bin/vim.tiny
+
+	Choose 1-4 [2]:
+	6.3 按enter进入编辑计划任务
+	6.4 写入：
+		# 命令格式：分 时 天 月 周 /dir/shname.sh
+		* * * * * /home/figo/code/sh/auto-del-per-minutes-log.sh
+	6.5 ctrl+x 退出并保存
+7、查看当前用户的定时任务：crontab -l
+8、删除定时任务：crontab -r
+
+# 获取系统时间创建文件
+datestr=$(date +%Y%m%d%H%M)
+filename=${datestr}.log
+mkdir /home/figo/code/log/$datestr;
+touch /home/figo/code/log/$filename;
+
+# 批量删除
+find /home/figo/code/log -name "*.log" -exec rm -rf {} \;
+
+# 部署git
+一：下载、安装、连接
+1、安装：
+sudo apt-get install git git-gui
+2、检查ssh连接：
+ssh -T git@github.com
+出现：The authenticity of host 'github.com (13.250.177.223)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+3、说明ssh可以连接，接下来看一下是否有key：
+cd ~/.ssh
+ls
+显示：
+figo@figo-Linux:~$ cd ~/.ssh
+figo@figo-Linux:~/.ssh$ ls
+known_hosts
+4、发现并没有id_rsa（私钥）和id_rsa.pub（公钥）这两个文件：
+输入：ssh-keygen -t rsa -C "你自己的github的注册邮箱地址"
+控制台输出：
+figo@figo-Linux:~/.ssh$ ssh-keygen -t rsa -C "501385003@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/figo/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/figo/.ssh/id_rsa.
+Your public key has been saved in /home/figo/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:6ZBNhDYJuYfP0TesZSr4WGMV47Q1prC4/jToN/jAYm0 501385003@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|    .o o.        |
+|    . *.+ +      |
+|     = B.O .     |
+|    + ++*.*      |
+|     *ooS* .     |
+|   oo.Boo        |
+|  o.E*oo.        |
+| . ++o+.         |
+|    .+o.         |
++----[SHA256]-----+
+5、ls查看是否存在id_rsa（私钥）和id_rsa.pub（公钥）这两个文件：
+figo@figo-Linux:~/.ssh$ ls
+id_rsa  id_rsa.pub  known_hosts
+6、查看公钥并在github网站设置ssh key：
+cat id_rsa.pub
+7、然后测试是否配对成功：
+输入：ssh -T git@github.com
+控制台输出：
+figo@figo-Linux:~/.ssh$ ssh -T git@github.com
+Warning: Permanently added the RSA host key for IP address '13.229.188.59' to the list of known hosts.
+Hi YourFigo! You've successfully authenticated, but GitHub does not provide shell access.
+二、配置、使用git
+1、设置全局用户名和邮箱：
+git config --global user.name "你的github用户名"
+git config --global user.email "你的github邮箱地址"
+2、clone库：
+git clone https://github.com/你的github用户名/github仓库名.git
+3、commit：
+git commit -m "xxx"
+4、push：
+git push origin master
