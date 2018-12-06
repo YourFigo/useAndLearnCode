@@ -242,7 +242,9 @@ git config --global user.name "你的github用户名"
 git config --global user.email "你的github邮箱地址"
 2、clone库：
 git clone https://github.com/你的github用户名/github仓库名.git
-3、commit：
+3、把需要commit的内容add一下：
+git add .
+4、commit：
 git commit -m "xxx"
-4、push：
+5、push：
 git push origin master
