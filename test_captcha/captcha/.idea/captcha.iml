@@ -4,12 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6.7 (C:\ProgramData\Anaconda3\envs\tensorflow_GUP\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="captcha" />
-    <orderEntry type="module" module-name="captcha_git" />
-    <orderEntry type="module" module-name="deep_learning_2018" />
-  </component>
-  <component name="TestRunnerService">
-    <option name="projectConfiguration" value="Nosetests" />
-    <option name="PROJECT_TEST_RUNNER" value="Nosetests" />
   </component>
 </module>
