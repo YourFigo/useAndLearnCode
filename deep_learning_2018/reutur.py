@@ -79,6 +79,7 @@ plt.show()
 model = models.Sequential()
 model.add(layers.Dense(64, activation='relu', input_shape=(10000,)))
 model.add(layers.Dense(64, activation='relu'))
+model.add(layers.Dense(32, activation='relu'))
 model.add(layers.Dense(46, activation='softmax'))
 model.compile(optimizer='rmsprop',loss='categorical_crossentropy',metrics=['accuracy'])
 model.fit(partial_x_train,partial_y_train,epochs=9,batch_size=512,
@@ -87,3 +88,5 @@ results = model.evaluate(x_test, one_hot_test_labels)
 
 # 在新数据上生成预测结果
 predictions = model.predict(x_test)
+# 概率最大的类别就是预测结果
+pre_class = np.argmax(predictions[0])
