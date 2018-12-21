@@ -131,7 +131,7 @@ from keras.applications import VGG16
 conv_base = VGG16(weights='imagenet',
                   include_top=False,
                   input_shape=(150, 150, 3))
-conv_base.trainable = False
+#conv_base.trainable = False
 
 model2.add(conv_base)
 model2.add(layers.Flatten())

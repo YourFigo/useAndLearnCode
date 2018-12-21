@@ -131,7 +131,7 @@ plt.plot(epochs,smooth_curve(loss), 'bo', label='Smoothed training loss')
 plt.plot(epochs,smooth_curve(val_loss), 'b', label='Smoothed validation loss')
 plt.title('Training and validation loss')
 plt.legend()
-plt.savefig(plt_dir + 'cat_dog_convnet_pretrained_fine_tuning_2_acc')
+plt.savefig(plt_dir + 'cat_dog_convnet_pretrained_fine_tuning_2_loss')
 plt.show()
 
 

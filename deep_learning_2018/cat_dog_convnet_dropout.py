@@ -51,6 +51,8 @@ model.add(layers.MaxPooling2D((2, 2)))
 model.add(layers.Conv2D(128, (3, 3), activation='relu'))
 model.add(layers.MaxPooling2D((2, 2)))
 
+# Flatten层用来将输入“压平”，即把多维的输入一维化，
+# 常用在从卷积层到全连接层的过渡。Flatten不影响batch的大小。
 model.add(layers.Flatten())
 model.add(layers.Dropout(0.5))
 model.add(layers.Dense(512, activation='relu'))

@@ -17,6 +17,7 @@
     <SUITE FILE_PATH="coverage/spiderlearn$getWeather.coverage" NAME="getWeather Coverage Results" MODIFIED="1543852781977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
     <SUITE FILE_PATH="coverage/spiderlearn$te.coverage" NAME="te Coverage Results" MODIFIED="1544621491123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
     <SUITE FILE_PATH="coverage/spiderlearn$train_cnn.coverage" NAME="train_cnn Coverage Results" MODIFIED="1544584666874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha" />
+    <SUITE FILE_PATH="coverage/spiderlearn$cat_dog_visualization_filter.coverage" NAME="cat_dog_visualization_filter Coverage Results" MODIFIED="1545311328476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../deep_learning_2018" />
     <SUITE FILE_PATH="coverage/spiderlearn$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1544593459140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
     <SUITE FILE_PATH="coverage/spiderlearn$test.coverage" NAME="test Coverage Results" MODIFIED="1544692898644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
     <SUITE FILE_PATH="coverage/spiderlearn$train.coverage" NAME="train Coverage Results" MODIFIED="1544674340364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
@@ -35,34 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
+      <file leaf-file-name="cat_dog_visualization_filter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../deep_learning_2018/cat_dog_visualization_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="181" column="17" lean-forward="false" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reutur.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../deep_learning_2018/reutur.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1998">
+            <state relative-caret-position="-2058">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -100,6 +77,7 @@
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/te.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/train.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/test.py" />
+        <option value="$PROJECT_DIR$/../deep_learning_2018/reutur.py" />
       </list>
     </option>
   </component>
@@ -130,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -167,21 +145,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reutur">
-    <configuration name="captcha_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cat_dog_visualization_filter">
+    <configuration name="cat_dog_visualization_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test_captcha/captcha_git" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../deep_learning_2018" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="captcha_git" />
+      <module name="deep_learning_2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test_captcha/captcha_git/captcha_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../deep_learning_2018/cat_dog_visualization_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,16 +240,16 @@
       <item index="0" class="java.lang.String" itemvalue="Python.te" />
       <item index="1" class="java.lang.String" itemvalue="Python.train" />
       <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.captcha_data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.reutur" />
+      <item index="3" class="java.lang.String" itemvalue="Python.reutur" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cat_dog_visualization_filter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.reutur" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.train" />
-        <item index="3" class="java.lang.String" itemvalue="Python.te" />
-        <item index="4" class="java.lang.String" itemvalue="Python.captcha_data" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cat_dog_visualization_filter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.reutur" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.train" />
+        <item index="4" class="java.lang.String" itemvalue="Python.te" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +290,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17006437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5284738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -322,6 +299,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -345,6 +323,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="181" column="17" lean-forward="false" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/reutur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5430">
@@ -530,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1221">
           <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3147">
           <caret line="3769" column="6" lean-forward="false" selection-start-line="3769" selection-start-column="6" selection-end-line="3769" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
           <caret line="7238" column="65" lean-forward="false" selection-start-line="7238" selection-start-column="54" selection-end-line="7238" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="149" column="53" lean-forward="true" selection-start-line="147" selection-start-column="2" selection-end-line="149" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
           <caret line="158" column="6" lean-forward="false" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="878" column="39" lean-forward="false" selection-start-line="878" selection-start-column="34" selection-end-line="878" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="2126" column="75" lean-forward="true" selection-start-line="2126" selection-start-column="4" selection-end-line="2126" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="1692" column="4" lean-forward="false" selection-start-line="1692" selection-start-column="4" selection-end-line="1692" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,6 +651,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/reutur.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -663,19 +679,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
+    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/cat_dog_visualization_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/reutur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1998">
+        <state relative-caret-position="-2058">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
