@@ -6,7 +6,7 @@ import pymongo
 city_top_url = 'https://search.heweather.com/top?'
 key = '07d70399294649a8ae8917aadbeaac1c'
 group = 'cn'
-number = 50
+number = 5
 
 city_top_url = city_top_url + 'key=' + key + '&group=' + group + '&number=' + str(number)
 # print(city_top_url)
@@ -37,6 +37,14 @@ for url in forecast_urls:
     forecast_city = forecast["HeWeather6"][0]["basic"]
     forecast_city = str(forecast_city)
     forecast_daily = forecast["HeWeather6"][0]["daily_forecast"]
+    date = forecast_daily[0]["date"]
+    tmp_max = forecast_daily[0]["tmp_max"]
+    tmp_min = forecast_daily[0]["tmp_min"]
+    print(date)
+    print(tmp_max)
+    print(tmp_min)
+    cond_txt_n = forecast_daily[0]["cond_txt_n"]
+    print(str(cond_txt_n))
     forecast_daily = str(forecast_daily)
     print(forecast_daily)
     file_write_obj.writelines(forecast_city)

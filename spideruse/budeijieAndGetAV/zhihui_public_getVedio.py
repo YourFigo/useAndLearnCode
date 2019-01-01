@@ -31,7 +31,7 @@ def get_vedio_path(response):
   
 def download_vedio(vedio_url,vedio_name):
     vedio_name = ''.join(vedio_name.split())
-    print(vedio_name)
+    #print(vedio_name)
     path = save_path + '/{}.mp4'.format(vedio_name)
     #    content = get_reponse(vedio_url)  #另一种下载方法
     #    with open(path,'wb') as f:
@@ -76,12 +76,12 @@ def main(start_urls,vedio_type_name):
 if __name__ == '__main__':
     vedio_type = 3
     type_dict = {1:'yzwm',3:'zptp',7:'sjsp'}
-    max_page = 3
-    web_str = 'https://www.xxx.com/move/'
+    max_page = 5
+    web_str = 'https://www.9229df.com/move/'
     start_urls = [web_str + str(vedio_type) + 
                   '/index_{}.html'.format(i) for i in range(2,max_page)]
     start_urls.insert(0,web_str + '3/index.html')
-    save_path = 'F:/小游戏/没视频/真的木有/有了有了/好家伙/藏在这里了/' + type_dict[3]
+    save_path = 'D:/internet spider/game5/game9/game7/game0/game0/game9/game6/' + type_dict[3]
     folder = os.path.exists(save_path)
     if not folder:
         os.makedirs(save_path) 
