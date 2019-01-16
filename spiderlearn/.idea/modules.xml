@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../test_captcha/captcha/.idea/captcha.iml" filepath="$PROJECT_DIR$/../test_captcha/captcha/.idea/captcha.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../test_captcha/captcha_git/.idea/captcha_git.iml" filepath="$PROJECT_DIR$/../test_captcha/captcha_git/.idea/captcha_git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../deep_learning_2018/.idea/deep_learning_2018.iml" filepath="$PROJECT_DIR$/../deep_learning_2018/.idea/deep_learning_2018.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../spideruse/.idea/spider.iml" filepath="$PROJECT_DIR$/../spideruse/.idea/spider.iml" />
+      <module fileurl="file://D:/1_Code/FatureSelection/1_semi_chi/.idea/1_semi_chi.iml" filepath="D:/1_Code/FatureSelection/1_semi_chi/.idea/1_semi_chi.iml" />
+      <module fileurl="file://D:/1_Code/FatureSelection/scikit-feature-master/.idea/scikit-feature-master.iml" filepath="D:/1_Code/FatureSelection/scikit-feature-master/.idea/scikit-feature-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spiderlearn.iml" filepath="$PROJECT_DIR$/.idea/spiderlearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/useAndLearnCode.iml" filepath="$PROJECT_DIR$/../.idea/useAndLearnCode.iml" />
     </modules>
   </component>
 </project>

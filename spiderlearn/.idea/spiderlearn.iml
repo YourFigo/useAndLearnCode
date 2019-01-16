@@ -4,10 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6.5 (C:\ProgramData\Anaconda3\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="captcha" />
-    <orderEntry type="module" module-name="captcha_git" />
     <orderEntry type="module" module-name="deep_learning_2018" />
-    <orderEntry type="module" module-name="spider" />
+    <orderEntry type="module" module-name="1_semi_chi" />
+    <orderEntry type="module" module-name="useAndLearnCode" />
+    <orderEntry type="module" module-name="scikit-feature-master" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />
