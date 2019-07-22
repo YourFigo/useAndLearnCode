@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="650b5e14-0ba7-4901-901f-be78ee9a3ccf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.spyproject/workspace.ini" afterPath="$PROJECT_DIR$/../.spyproject/workspace.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spiderlearn.iml" afterPath="$PROJECT_DIR$/.idea/spiderlearn.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/useAndLearnCode.iml" afterPath="$PROJECT_DIR$/../.idea/useAndLearnCode.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.spyproject/workspace.ini" afterPath="$PROJECT_DIR$/../.spyproject/workspace.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +18,33 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spiderlearn$zhihui_public_getVedio.coverage" NAME="zhihui_public_getVedio Coverage Results" MODIFIED="1545999230528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spideruse/budeijieAndGetAV" />
     <SUITE FILE_PATH="coverage/spiderlearn$get_av.coverage" NAME="get_av Coverage Results" MODIFIED="1545998620350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spideruse/budeijieAndGetAV" />
-    <SUITE FILE_PATH="coverage/spiderlearn$test_Gauss.coverage" NAME="test_Gauss Coverage Results" MODIFIED="1547100084730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
-    <SUITE FILE_PATH="coverage/spiderlearn$getWeather.coverage" NAME="getWeather Coverage Results" MODIFIED="1545568852248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_Gauss.coverage" NAME="test_Gauss Coverage Results" MODIFIED="1557493980235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
     <SUITE FILE_PATH="coverage/spiderlearn$train_cnn.coverage" NAME="train_cnn Coverage Results" MODIFIED="1544584666874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha" />
-    <SUITE FILE_PATH="coverage/spiderlearn$test.coverage" NAME="test Coverage Results" MODIFIED="1544692898644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
-    <SUITE FILE_PATH="coverage/spiderlearn$train.coverage" NAME="train Coverage Results" MODIFIED="1544674340364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
     <SUITE FILE_PATH="coverage/spiderlearn$weather_to_mongoDB.coverage" NAME="weather_to_mongoDB Coverage Results" MODIFIED="1543856712984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
+    <SUITE FILE_PATH="coverage/spiderlearn$captcha_data.coverage" NAME="captcha_data Coverage Results" MODIFIED="1544612022806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$NumPy.coverage" NAME="NumPy Coverage Results" MODIFIED="1555830650989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Ai_learn/ml/1.MLFoundation" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_KNN.coverage" NAME="test_KNN Coverage Results" MODIFIED="1557504209484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_Acc_plot_all.coverage" NAME="test_Acc_plot_all Coverage Results" MODIFIED="1557565686964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
+    <SUITE FILE_PATH="coverage/spiderlearn$te.coverage" NAME="te Coverage Results" MODIFIED="1544621491123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$DTSklearn.coverage" NAME="DTSklearn Coverage Results" MODIFIED="1555831637196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree" />
+    <SUITE FILE_PATH="coverage/spiderlearn$skelearn_dts_regressor_demo.coverage" NAME="skelearn_dts_regressor_demo Coverage Results" MODIFIED="1555831778518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_RFC.coverage" NAME="test_RFC Coverage Results" MODIFIED="1557531089596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
+    <SUITE FILE_PATH="coverage/spiderlearn$sklearn_dts_classify_demo.coverage" NAME="sklearn_dts_classify_demo Coverage Results" MODIFIED="1555831880462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree" />
+    <SUITE FILE_PATH="coverage/spiderlearn$getWeather.coverage" NAME="getWeather Coverage Results" MODIFIED="1545568852248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
+    <SUITE FILE_PATH="coverage/spiderlearn$2_convnet_base.coverage" NAME="2_convnet_base Coverage Results" MODIFIED="1550821831870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../deep_learning_code/deep_learning_2018" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test.coverage" NAME="test Coverage Results" MODIFIED="1550833424150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$train.coverage" NAME="train Coverage Results" MODIFIED="1550824783624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_GBC.coverage" NAME="test_GBC Coverage Results" MODIFIED="1557503834732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
     <SUITE FILE_PATH="coverage/spiderlearn$reutur.coverage" NAME="reutur Coverage Results" MODIFIED="1544848052278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../deep_learning_2018" />
     <SUITE FILE_PATH="coverage/spiderlearn$replyWX.coverage" NAME="replyWX Coverage Results" MODIFIED="1545573911369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spideruse/wechat" />
-    <SUITE FILE_PATH="coverage/spiderlearn$captcha_data.coverage" NAME="captcha_data Coverage Results" MODIFIED="1544612022806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_Acc_plot_ave.coverage" NAME="test_Acc_plot_ave Coverage Results" MODIFIED="1557713145064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
     <SUITE FILE_PATH="coverage/spiderlearn$opeate_Mongo.coverage" NAME="opeate_Mongo Coverage Results" MODIFIED="1543930451465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weather" />
     <SUITE FILE_PATH="coverage/spiderlearn$data.coverage" NAME="data Coverage Results" MODIFIED="1544600940065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
-    <SUITE FILE_PATH="coverage/spiderlearn$te.coverage" NAME="te Coverage Results" MODIFIED="1544621491123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$sklearn_knn_demo.coverage" NAME="sklearn-knn-demo Coverage Results" MODIFIED="1555831026004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Ai_learn/ml/2.KNN" />
     <SUITE FILE_PATH="coverage/spiderlearn$cat_dog_visualization_filter.coverage" NAME="cat_dog_visualization_filter Coverage Results" MODIFIED="1545562682554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../deep_learning_2018" />
-    <SUITE FILE_PATH="coverage/spiderlearn$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1544593459140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1550833241473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test_captcha/captcha_git" />
     <SUITE FILE_PATH="coverage/spiderlearn$sendWX__1_.coverage" NAME="sendWX (1) Coverage Results" MODIFIED="1545569363329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spideruse/wechat" />
+    <SUITE FILE_PATH="coverage/spiderlearn$test_Acc_plot.coverage" NAME="test_Acc_plot Coverage Results" MODIFIED="1550738405069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/1_Code/FatureSelection/1_semi_chi" />
     <SUITE FILE_PATH="coverage/spiderlearn$sendWX.coverage" NAME="sendWX Coverage Results" MODIFIED="1545573608333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../spideruse/wechat" />
   </component>
   <component name="DatabaseView">
@@ -48,11 +60,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test_Acc_plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot.py">
+      <file leaf-file-name="semi_chi.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_chi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_Gauss.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="60" column="78" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="60" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_GBC.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_GBC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_KNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_KNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="60" column="78" lean-forward="false" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_RFC.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_RFC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3330">
+              <caret line="125" column="12" lean-forward="false" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_Acc_plot_all.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2940">
+              <caret line="102" column="47" lean-forward="false" selection-start-line="100" selection-start-column="12" selection-end-line="102" selection-end-column="47" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -60,71 +126,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SPEC.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/similarity_based/SPEC.py">
+      <file leaf-file-name="test_Acc_plot_ave.py" pinned="false" current-in-tab="true">
+        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_ave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="762">
+              <caret line="157" column="45" lean-forward="false" selection-start-line="155" selection-start-column="7" selection-end-line="157" selection-end-column="45" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semi_chi.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_chi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chi_square.py" pinned="false" current-in-tab="true">
-        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/chi_square.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-798">
-              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="univariate_selection.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/feature_selection/univariate_selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="165" column="20" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="20" />
-              <folding>
-                <element signature="e#171#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extmath.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/utils/extmath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_BDNB.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_BDNB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +165,6 @@
         <option value="$PROJECT_DIR$/../test_captcha/captcha/test_model.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha/train_cnn.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha/generate_captcha.py" />
-        <option value="$PROJECT_DIR$/../test_captcha/captcha_git/test_model.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/captcha_data.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/data.py" />
         <option value="$PROJECT_DIR$/../test_captcha/captcha_git/te.py" />
@@ -169,8 +176,21 @@
         <option value="$PROJECT_DIR$/../spideruse/wechat/replyWX.py" />
         <option value="$PROJECT_DIR$/../spideruse/budeijieAndGetAV/zhihui_public_getVedio.py" />
         <option value="$PROJECT_DIR$/../spideruse/budeijieAndGetAV/get_av.py" />
-        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py" />
         <option value="D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_alpha_investing.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/write_averge_acc.py" />
+        <option value="$PROJECT_DIR$/../test_captcha/captcha_git/test_model.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/semi_IG.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/semi_SU.py" />
+        <option value="$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/DTSklearn.py" />
+        <option value="$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/skelearn_dts_regressor_demo.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_GBC.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_KNN.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_RFC.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/semi_chi.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_all.py" />
+        <option value="D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_ave.py" />
       </list>
     </option>
   </component>
@@ -181,8 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="278" />
-    <option name="y" value="-22" />
+    <option name="x" value="321" />
+    <option name="y" value="-28" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -202,7 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,16 +234,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/1_Code/FatureSelection/scikit-feature-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ai_learn" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\FatureSelection\1_semi_chi" />
       <recent name="D:\3_other_code\GitCode\useAndLearnCode\test_captcha\captcha_git" />
     </key>
   </component>
@@ -239,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_Gauss">
+  <component name="RunManager" selected="Python.test_Acc_plot_ave">
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,25 +449,7 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="getWeather" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weather" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spiderlearn" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weather/getWeather.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test_Gauss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_Acc_plot_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -459,19 +462,97 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="1_semi_chi" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py" />
+      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.getWeather" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_Gauss" />
+    <configuration name="test_Acc_plot_ave" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/1_Code/FatureSelection/1_semi_chi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="1_semi_chi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_ave.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_GBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/1_Code/FatureSelection/1_semi_chi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="1_semi_chi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_GBC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/1_Code/FatureSelection/1_semi_chi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="1_semi_chi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_KNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test_RFC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/1_Code/FatureSelection/1_semi_chi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="1_semi_chi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/1_Code/FatureSelection/1_semi_chi/test_RFC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_GBC" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_Acc_plot_all" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_KNN" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_RFC" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_Acc_plot_ave" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_Gauss" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getWeather" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_Acc_plot_ave" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_Acc_plot_all" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_RFC" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_KNN" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_GBC" />
       </list>
     </recent_temporary>
   </component>
@@ -507,14 +588,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32801822" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22551253" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21867882" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23927039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20493563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3553531" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3166287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -538,6 +619,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/DTSklearn.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -545,276 +633,12 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/tensorflow/python/ops/random_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="149" column="53" lean-forward="true" selection-start-line="147" selection-start-column="2" selection-end-line="149" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/tensorflow/python/ops/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="158" column="6" lean-forward="false" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="878" column="39" lean-forward="false" selection-start-line="878" selection-start-column="34" selection-end-line="878" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="2126" column="75" lean-forward="true" selection-start-line="2126" selection-start-column="4" selection-end-line="2126" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1692" column="4" lean-forward="false" selection-start-line="1692" selection-start-column="4" selection-end-line="1692" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1015">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha/test_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="90" lean-forward="false" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/te.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha/train_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="164" column="85" lean-forward="false" selection-start-line="164" selection-start-column="76" selection-end-line="164" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/captcha_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="61" column="70" lean-forward="false" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/reutur.py" />
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="181" column="17" lean-forward="false" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../deep_learning_2018/cat_dog_visualization_filter.py" />
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/itchat/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/itchat/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="430" column="8" lean-forward="false" selection-start-line="430" selection-start-column="8" selection-end-line="430" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/opeate_Mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/weather_to_mongoDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/getWeather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/itchat/components/register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spideruse/wechat/wechatTutorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spideruse/wechat/replyWX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spideruse/budeijieAndGetAV/get_av.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2136">
-          <caret line="50" column="66" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spideruse/budeijieAndGetAV/zhihui_public_getVedio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spideruse/wechat/sendWX.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_GBC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/LoadingData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_alpha_investing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_CFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_CIFE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_CMIM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_decision_tree_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_DISR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/example/test_decision_tree_backward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/similarity_based/reliefF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/statistical_based/chi_square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_BDNB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/mutual_information.py">
+    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/statistical_based/CFS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -823,28 +647,29 @@
     </entry>
     <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/similarity_based/lap_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot.py">
+    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/information_theoretical_based/FCBF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/utility/mutual_information.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1_Code/FatureSelection/scikit-feature-master/skfeature/function/statistical_based/f_score.py">
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/entropy_estimators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -852,72 +677,340 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/SPEC.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="2760">
+          <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/reliefF.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/ensemble/gradient_boosting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2790">
+        <state relative-caret-position="56880">
+          <caret line="1935" column="8" lean-forward="false" selection-start-line="1935" selection-start-column="8" selection-end-line="1935" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/captcha_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_chi.py">
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/te.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_captcha/captcha_git/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4246">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deep_learning_code/deep_learning_2018/2_convnet_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/IG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/mutual_information.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_IG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/utils/extmath.py">
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_SU.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/numpy/core/numeric.py">
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/f_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="2886" column="8" lean-forward="false" selection-start-line="2886" selection-start-column="8" selection-end-line="2886" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/feature_selection/univariate_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="165" column="20" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="20" />
-          <folding>
-            <element signature="e#171#189#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="305">
+          <caret line="241" column="10" lean-forward="false" selection-start-line="240" selection-start-column="16" selection-end-line="241" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/fisher_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/chi_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="30">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/2.KNN/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/1.MLFoundation/NumPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/2.KNN/sklearn-knn-demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3840">
+          <caret line="133" column="33" lean-forward="false" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/decisionTreePlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3420">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/DTSklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#151#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/5.Logistic/sklearn_logisticRegression_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/sklearn_dts_classify_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1170">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/15.BigData_MapReduce/mrMeanMapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-785">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/15.BigData_MapReduce/mrMean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1427">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/13.PCA/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3635">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/ml/3.DecisionTree/skelearn_dts_regressor_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/nlp/5.jieba-model/userdic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/nlp/1.set0bag-of-words/CountVectorizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Ai_learn/nlp/3.vocabulary-model/Vocabulary-Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/WritingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/write_averge_acc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/LoadingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/SPEC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3586">
+          <caret line="41" column="72" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_RFC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3330">
+          <caret line="125" column="12" lean-forward="false" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="78" lean-forward="false" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_GBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Gauss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="78" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="60" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow_GUP/Lib/site-packages/sklearn/preprocessing/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11700">
+          <caret line="417" column="39" lean-forward="false" selection-start-line="417" selection-start-column="39" selection-end-line="417" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/semi_chi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="102" column="47" lean-forward="false" selection-start-line="100" selection-start-column="12" selection-end-line="102" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/1_Code/FatureSelection/1_semi_chi/test_Acc_plot_ave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="157" column="45" lean-forward="false" selection-start-line="155" selection-start-column="7" selection-end-line="157" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

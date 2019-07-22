@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="1_semi_chi" />
     <orderEntry type="module" module-name="useAndLearnCode" />
     <orderEntry type="module" module-name="scikit-feature-master" />
+    <orderEntry type="module" module-name="Ai_learn" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Nosetests" />

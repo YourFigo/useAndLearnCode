@@ -35,7 +35,7 @@ def model_test():
         nameList.append(pathName.split('/')[-1])
     totalNumber = len(nameList)
     # 加载graph
-    saver = tf.train.import_meta_graph(MODEL_SAVE_PATH + "output.model-4400.meta")
+    saver = tf.train.import_meta_graph(MODEL_SAVE_PATH + "output.model-5800.meta")
     graph = tf.get_default_graph()
     # 从graph取得 tensor，他们的name是在构建graph时定义的(查看上面第2步里的代码)
     input_holder = graph.get_tensor_by_name("input:0")

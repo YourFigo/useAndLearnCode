@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://D:/1_Code/FatureSelection/1_semi_chi/.idea/1_semi_chi.iml" filepath="D:/1_Code/FatureSelection/1_semi_chi/.idea/1_semi_chi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Ai_learn/.idea/Ai_learn.iml" filepath="$PROJECT_DIR$/../../Ai_learn/.idea/Ai_learn.iml" />
       <module fileurl="file://D:/1_Code/FatureSelection/scikit-feature-master/.idea/scikit-feature-master.iml" filepath="D:/1_Code/FatureSelection/scikit-feature-master/.idea/scikit-feature-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spiderlearn.iml" filepath="$PROJECT_DIR$/.idea/spiderlearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/../.idea/useAndLearnCode.iml" filepath="$PROJECT_DIR$/../.idea/useAndLearnCode.iml" />
